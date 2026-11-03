@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Premium Settings -->
-    <string name="piko_title_premium">Premium</string>
+    <string name="piko_title_premium">✨ Premium</string>
     <string name="piko_pref_undo_posts">Enable undo posts</string>
     <string name="piko_pref_undo_posts_desc">Enables ability to undo posts before posting</string>
     <string name="piko_pref_undo_posts_btn">Undo posts settings</string>
@@ -10,7 +10,7 @@
     <string name="piko_pref_enable_force_pip_desc">Enables PiP mode when you close the app</string>
 
     <!-- Download Settings -->
-    <string name="piko_title_download">Download</string>
+    <string name="piko_title_download">📥 Download</string>
     <string name="piko_pref_video_download">Video downloading</string>
     <string name="piko_pref_download">Change download directory</string>
     <string name="piko_pref_download_path">Public folder</string>
@@ -25,7 +25,7 @@
     <string name="piko_pref_download_media_link_handle_share_media_link">Share media link</string>
 
     <!-- Native -->
-    <string name="piko_title_native">Native features</string>
+    <string name="piko_title_native">🧩 Native features</string>
     <string name="piko_pref_native_page_desc">These Piko native features are available in the post menu.</string>
     <string name="piko_title_native_downloader">Native downloader</string>
     <string name="piko_title_native_downloader_toggle">Enable native downloader</string>
