@@ -18,21 +18,21 @@
 
 ## 🕹️ Usage
 
-> Starting with patches v3.0.0, Piko patches use [Morphe](https://morphe.software).
+> 🛠️ Starting with patches v3.0.0, Piko patches use [Morphe](https://morphe.software).
 
 **Morphe Manager**
 
 <details>
 <summary>Show steps</summary>
 
-Use the deep link to add Piko as a patch source in Morphe Manager:
+🌐 Use the deep link to add Piko as a patch source in Morphe Manager:
 
 [➕ Add Piko to Morphe](https://morphe.software/add-source?github=crimera/piko)
 
-Then patch Twitter/X or Instagram:
-1. Tap X or Instagram app icon in Morphe
-2. Download original APKM file from ApkMirror. Do _not_ unspilt or modify the file, Morphe patches APKM directly
-3. Wait for patching to complete, install
+🔹 Then patch Twitter/X or Instagram:
+1. 🔹 Tap X or Instagram app icon in Morphe
+2. 📁 Download original APKM file from ApkMirror. Do _not_ unspilt or modify the file, Morphe patches APKM directly
+3. 📦 Wait for patching to complete, install
 
 
 
@@ -46,20 +46,20 @@ java -jar cli.jar patch --patches piko.mpp input.apkm
 
 **Piko-Shim**
 
-To patch with Twitter/X version 11.88 and above, you must include patches from another repo/project called [Piko-Shim](https://gitlab.com/inotia00/piko-shim/) developed by [@inotia00](https://github.com/inotia00)
+🛠️ To patch with Twitter/X version 11.88 and above, you must include patches from another repo/project called [Piko-Shim](https://gitlab.com/inotia00/piko-shim/) developed by [@inotia00](https://github.com/inotia00)
 
 [➕ Add Piko-Shim to Morphe](https://morphe.software/add-source?gitlab=inotia00/piko-shim)
 
 ⚠️Important steps⚠️
-* Enable `expert mode` in Morphe Manager.
-* You must select all patches from the Piko shim bundle and recommended/preferred patches from Piko. **DO NOT INCLUDE** patches from any other bundles.
-* Select "Proceed anyway" at the prompt warning of using multiple bundles.
+* 🔹 Enable `expert mode` in Morphe Manager.
+* 🔹 You must select all patches from the Piko shim bundle and recommended/preferred patches from Piko. **DO NOT INCLUDE** patches from any other bundles.
+* 📌 Select "Proceed anyway" at the prompt warning of using multiple bundles.
 
 ⚠️Additional Context⚠️
 
-* An active internet connection is required during patching.
-* XChat decryption and XChat video calls work. 
-* The Piko Shim patch only adds a compatibility shim layer and pairip is not removed.
+* 🔹 An active internet connection is required during patching.
+* 🔹 XChat decryption and XChat video calls work.
+* 🔹 The Piko Shim patch only adds a compatibility shim layer and pairip is not removed.
 
 > For an up-to-date patching guide, [follow this Reddit guide](https://www.reddit.com/r/MorpheApp/comments/1r4xt24/x_twitter_can_now_be_patched_with_piko_patches/).
 
@@ -223,7 +223,7 @@ Caution: Do not select the official Morphe's "Change package name" universal pat
 
 ## 🛠️ Building
 
-To build Piko Patches, follow the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation).
+🛠️ To build Piko Patches, follow the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation).
 
 ## ✨ Stargazers over time
 
@@ -231,8 +231,10 @@ To build Piko Patches, follow the [Morphe documentation](https://github.com/Morp
     <img src="https://starchart.cc/crimera/piko.svg?variant=light" alt="piko" width="640" height="320" />
 </p>
 
-## License
+<a id="license"></a>
+
+## 📜 License
 
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)
 
-These patches are fully FOSS redistributable and modifiable under the [GNU General Public License v3](https://www.gnu.org/licenses/gpl.html) or later.
+📜 These patches are fully FOSS redistributable and modifiable under the [GNU General Public License v3](https://www.gnu.org/licenses/gpl.html) or later.
